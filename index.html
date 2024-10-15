@@ -6,32 +6,105 @@
     <link rel="stylesheet" href="public/css/custom.css" />
   </head>
   <body>
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">2015 jQuery Developer Summit</a>
-          </div>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">2015 jQuery Developer Summit</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Schedule</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+            <li>
+              <form class="navbar-form" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-      <div class="jumbotron">
-        <img class="center-block" src="public/img/summit_logo.png" alt="logo" />
+    <!-- Jumbotron Section -->
+    <div class="jumbotron text-center">
+      <img class="center-block" src="public/img/summit_logo.png" alt="logo" />
+      <h1>2015 jQuery Developer Summit</h1>
+      <p>Join us for an unforgettable experience with industry leaders and experts in the world of web development.</p>
+      <a class="btn btn-primary btn-lg" href="#about" role="button">Learn More</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About the Event</h2>
+          <p>The 2015 jQuery Developer Summit brings together the brightest minds in web development. Learn about the latest trends and best practices for building modern web applications.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="public/img/about.jpg" alt="About" class="img-responsive center-block">
+        </div>
       </div>
     </div>
+
+    <!-- Speakers Section -->
+    <div class="container" id="speakers">
+      <div class="row text-center">
+        <h2>Meet the Speakers</h2>
+        <div class="col-md-4">
+          <img src="public/img/speaker1.jpg" alt="Speaker 1" class="img-circle img-responsive center-block">
+          <h3>Speaker1</h3>
+          <p>Description of speaker1</p>
+        </div>
+        <div class="col-md-4">
+          <img src="public/img/speaker2.jpg" alt="Speaker 2" class="img-circle img-responsive center-block">
+          <h3>Speaker2</h3>
+          <p>Description of speaker2</p>
+        </div>
+        <div class="col-md-4">
+          <img src="public/img/speaker3.jpg" alt="Speaker 3" class="img-circle img-responsive center-block">
+          <h3>Speaker3</h3>
+          <p>Description of speaker3</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Schedule Section -->
+    <div class="container" id="schedule">
+      <div class="row text-center">
+        <h2>Event Schedule</h2>
+        <div class="col-md-12">
+          <ul class="list-group">
+            <li class="list-group-item">          </li>
+            <li class="list-group-item">          </li>
+            <li class="list-group-item">          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+      <div class="container">
+        <p>&copy; 2015 jQuery Developer Summit. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>

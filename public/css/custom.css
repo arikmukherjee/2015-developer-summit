@@ -1,1 +1,100 @@
 /* custom styles */
+/* Custom Styles for the Body Sections */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 25px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    font-size: 1.5em;
+}
+
+.jumbotron .btn-primary {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+    background-color: white;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Speakers Section */
+#speakers {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#speakers h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+#speakers .img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#speakers h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Schedule Section */
+#schedule {
+    padding: 50px 0;
+    background-color: white;
+}
+
+#schedule h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#schedule .list-group-item {
+    font-size: 1.2em;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
